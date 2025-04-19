@@ -1,0 +1,7 @@
+# IDE files, folders
+.buildpath
+.project
+.settings/
+
+# dependencies
+vendor/

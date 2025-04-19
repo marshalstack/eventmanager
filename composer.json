@@ -1,0 +1,21 @@
+{
+	"name" : "marshal/eventmanager",
+	"description" : "PSR-15 event manager implementation",
+    "version": "1.0.0",
+	"type" : "library",
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Marshal\\Eventmanager\\" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "Collins Pamba",
+			"email" : "collinspamba@outlook.com"
+		}
+	],
+	"require" : {
+		"psr/event-dispatcher" : "^1.0",
+		"psr/container": "^2.0"
+	}
+}
