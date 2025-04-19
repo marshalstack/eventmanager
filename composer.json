@@ -1,12 +1,11 @@
 {
 	"name" : "marshal/eventmanager",
-	"description" : "PSR-15 event manager implementation",
-    "version": "1.0.0",
+	"description" : "PSR-14 event manager implementation",
 	"type" : "library",
 	"license" : "MIT",
 	"autoload" : {
 		"psr-4" : {
-			"Marshal\\Eventmanager\\" : "src/"
+			"Marshal\\EventManager\\" : "src/"
 		}
 	},
 	"authors" : [{
@@ -16,6 +15,9 @@
 	],
 	"require" : {
 		"psr/event-dispatcher" : "^1.0",
-		"psr/container": "^2.0"
+		"psr/container" : "^2.0"
+	},
+	"provide": {
+		"psr/event-dispatcher-implementation": "1.0.0"
 	}
 }
